@@ -1,13 +1,152 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Katibeh&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap');
+
+* {
+  background-color: #ffffe6;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Kaushan Script', cursive;
+  color: #333;
+  
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid teal;
+}
+.navbar h1 {
+  color: teal;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: teal;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Blogs */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
 }
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.3);
+}
+
+.fz {
+  font-family: 'Katibeh', cursive;
+  letter-spacing: 1.5px;
+  font-size: 27px;
+}
+
+.blog-preview h2 {
+  font-size: 25px;
+  color: #ff4d4d;
+  margin-bottom: 8px;
+  font-family: 'Katibeh', cursive;
+  color: teal;
+  letter-spacing: 1.4px;
+}
+.blog-preview p {
+  font-family: 'Katibeh', cursive;
+  font-size: 20px;
+  color:  #4d0000;
+  letter-spacing: 1.4px;
+}
+
+.blog-preview a {
+  text-decoration: none;
+}
+
+/*blogs details*/
+
+.blog-details h2 {
+  font-size: 22px;
+  color: teal;
+  margin-bottom: 10px;
+  font-family: 'Katibeh', cursive;
+  letter-spacing: 1.5px;
+}
+
+.blog-details p {
+  color: #4d0000;
+  letter-spacing: 2px;
+  font-family: 'Katibeh', cursive;
+}
+
+.blog-details div {
+  margin: 20px 0;
+}
+ .bodyy p {
+  letter-spacing: 1.1px;
+  font-family: 'Mukta', sans-serif;
+  color:black;
+ }
+
+/*new blog form*/
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+  font-family: 'Katibeh', cursive;
+}
+.create h2 {
+  font-size: 22px;
+  color: teal;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid teal;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 3px;
+  font-family: 'Mukta', sans-serif;
+  font-weight: 700;
+}
+.create button {
+  margin-top: 28px;
+  background: teal;
+  width: 150px;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Katibeh', cursive;
+}
+
+.blog-delete {
+  font-family: 'Mukta', sans-serif;
+  color: black;
+  border-radius: 3px;
+  padding: 2px;
+  width: 80px;
+  cursor: pointer;
+}
+.blog-delete:hover {
+ background-color: teal;
+ color:  white;
+}
+

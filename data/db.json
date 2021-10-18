@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "title": "My First Blog",
+      "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, veniam, sit. Expedita libero doloribus fugit culpa eveniet labore placeat magni aspernatur totam, debitis nam facere quia inventore ut vel fuga recusandae asperiores voluptate in cumque laudantium quam. Excepturi, adipisci pariatur placeat minima aspernatur quam id distinctio voluptatum voluptates iure aliquid, debitis corporis esse hic dolor, totam non inventore consequuntur harum minus? Laborum exercitationem incidunt tempora iste reprehenderit, ipsam harum, doloribus ea iure labore temporibus rerum perspiciatis facilis et quae cupiditate excepturi. Voluptates, aliquam, sapiente corporis itaque sunt beatae quis inventore, perferendis a voluptatibus quaerat nemo doloribus. Et ea error in tempore? Perspiciatis voluptatibus deserunt culpa deleniti animi sapiente placeat in ratione iste, veritatis minus explicabo eius, dignissimos enim laborum cum delectus. Asperiores commodi aliquam, sequi iusto fuga eum tempora ad maiores nulla rerum, ullam natus suscipit quas alias odit aspernatur inventore? Ipsum, consectetur earum saepe repellendus veniam assumenda iste voluptates?",
+      "author": "Artem",
+      "id": 1
+    },
+    {
+      "title": "Opening Party",
+      "body": "Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Itaque, dolore consequatur unde! Dolorum blanditiis sed veritatis quod ipsum quasi, tenetur harum cumque iste, odio saepe possimus consequuntur ipsam sit nemo ut earum quaerat, sequi fugit? Facere maiores itaque, omnis, incidunt praesentium deserunt ad obcaecati sunt doloremque tempora. Est laboriosam beatae, libero, iure asperiores rem vitae at accusamus officia inventore, ut culpa provident cupiditate! Quis mollitia quam, illum saepe neque magni temporibus officiis! Dolorum tenetur labore voluptatum inventore eligendi dolorem laudantium excepturi placeat architecto ex vel, aspernatur doloremque unde. Voluptates consequatur facere voluptatibus temporibus natus, in pariatur eum numquam sequi ad illo aspernatur aut unde veniam aperiam. Eveniet maxime cumque, sed suscipit similique vero corporis rerum asperiores, pariatur, aut ab iure voluptatem debitis quasi magnam praesentium dolorum? Sapiente accusamus sunt dicta delectus, unde, veniam, vel expedita quae ex minus iure nam exercitationem alias consequuntur voluptate repellat explicabo, quisquam! Saepe nihil necessitatibus debitis, fugit. Dolorum expedita illum ut debitis suscipit, eaque corporis, nihil. Quae similique aliquam, dolorum neque. Quasi, blanditiis laboriosam dolor?",
+      "author": "Adam",
+      "id": 2
+    }
+  ]
+}
